@@ -1,0 +1,13 @@
+runtime: php84
+
+env_variables:
+  APP_NAME: "App1 Backend"
+  APP_ENV: production
+  APP_DEBUG: "false"
+
+  DB_CONNECTION: mysql
+  DB_HOST: "127.0.0.1"
+  DB_PORT: "3306"
+  DB_DATABASE: app1Backend
+  DB_USERNAME: mysql_user
+  DB_SOCKET: "/cloudsql/cloud-compute-511202:us-central1:bd-mysql8"
